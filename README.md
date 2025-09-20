@@ -35,32 +35,6 @@ Clean UI separation: Dedicated classes for game logic, UI, and data handling.
 
 Fully commented code following industry documentation standards.
 
-🖥 Example Gameplay
-
-Below is a mid-game snapshot with some letters correctly guessed:
-
-  +---+
-  |   |
-  O   |
- /|\  |
-      |
-      |
-======
-Word: C _ T
-Attempts Left: 4
-
-Guess a letter:
-
-📂 Project Structure
-HangmanGame/
-│
-├── Program.cs           # Main entry point and menu controller
-├── GameController.cs    # Orchestrates gameplay flow
-├── Hangman.cs           # Core game logic and state management
-├── WordProvider.cs      # Supplies random words by difficulty
-├── ConsoleDisplay.cs    # Handles UI and ASCII art rendering
-├── Scoreboard.cs        # Tracks wins and losses
-└── README.md            # Documentation for GitHub
 
 🛠 Technologies Used
 
